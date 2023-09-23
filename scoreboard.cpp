@@ -9,6 +9,8 @@ void Scoreboard::addScore(const char* teamMemeber, int score){
 	cout << teamMemeber << " scored " << score << " points!" << endl;
 
 	totalScore += score;
+
+	//Adding this comment to test git pull with an up-to-date code - WH
 }
 
 int Scoreboard::getTotalScore() const {
