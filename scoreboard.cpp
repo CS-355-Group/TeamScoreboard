@@ -10,7 +10,11 @@ void Scoreboard::addScore(const char* teamMemeber, int score){
 
 	totalScore += score;
 
+
 	//checking to see if I can push
+
+	//Adding this comment to test git pull with an up-to-date code - WH
+
 }
 
 int Scoreboard::getTotalScore() const {
