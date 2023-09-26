@@ -9,6 +9,10 @@ int main(){
 
 	scoreboard.addScore("A", 50);
 	scoreboard.addScore("B", 75);
+	scoreboard.addScore("C", 60);
+
+        //display the total score 
+	cout<<"Total score":<<scoreboard.getTotalScore()<<endl;
 	
 	return 0;
 }
