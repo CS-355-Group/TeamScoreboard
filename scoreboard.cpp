@@ -2,11 +2,11 @@
 
 Scoreboard::Scoreboard() : totalScore(0) {}
 
-void Scoreboard::addScore(const char* teamMemeber, int score){
+void Scoreboard::addScore(const char* teamMember, int score){
 	//Implement adding score here
 	//Wyatt added to this section
 	
-	cout << teamMemeber << " scored " << score << " points!" << endl;
+	cout << teamMember << " scored " << score << " points!" << endl;
 
 	totalScore += score;
 
